@@ -1,8 +1,8 @@
 package abstractFactory
 
 fun main(){
-    Client.processItemA(ConcreteFactory1).doItemAFunction()
-    Client.processItemA(ConcreteFactory2).doItemAFunction()
-    Client.processItemB(ConcreteFactory1).doItemBFunction()
-    Client.processItemB(ConcreteFactory2).doItemBFunction()
+    ConcreteFactory1.createItemA()
+    ConcreteFactory1.createItemB()
+    ConcreteFactory2.createItemA()
+    ConcreteFactory2.createItemB()
 }
