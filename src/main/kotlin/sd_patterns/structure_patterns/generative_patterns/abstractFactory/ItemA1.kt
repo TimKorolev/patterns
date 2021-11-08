@@ -1,7 +1,0 @@
-package sd_patterns.structure_patterns.generative_patterns.abstractFactory
-
-class ItemA1 : AbstractItemA() {
-    override fun doItemAFunction() {
-        println("I am Item A1")
-    }
-}
